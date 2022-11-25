@@ -10,11 +10,11 @@
   <h1>Weather in {{ selectedCountry }}</h1>
   <h3>Temperature</h3>
   <div>
-    <span>Now Temperature: {{ weatherData.main.temp }}</span
+    <span>Instant Temperature: {{ weatherData.main.temp }}</span
     ><br />
-    <span>Highest Temperature: {{ weatherData.main.temp_min }}</span
+    <span>Max Temperature: {{ weatherData.main.temp_min }}</span
     ><br />
-    <span>Lowest Temperature: {{ weatherData.main.temp_max }}</span
+    <span>Min Temperature: {{ weatherData.main.temp_max }}</span
     ><br />
   </div>
   <h3>Humidity</h3>
@@ -24,11 +24,11 @@
   <h3>Wind</h3>
   <div>
     <span
-      >Speed of wind is {{ weatherData.wind.speed }} at
+      >Wind Speed {{ weatherData.wind.speed }} at
       {{ weatherData.wind.deg }} degrees.</span
     >
     <span *ngIf="weatherData.wind.gust"
-      >Gust in the air can be {{ weatherData.wind.gust }}</span
+      >Dust in the air can be {{ weatherData.wind.gust }}</span
     >
   </div>
 </div>

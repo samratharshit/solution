@@ -1,8 +1,8 @@
 p {
   font-family: Lato;
-  color: #ff0055;
+  color: #ff0000;
 }
 div {
-  background-color: red;
-  color: white;
+  background-color: rgb(133, 60, 100);
+  color: rgb(227, 250, 224);
 }
