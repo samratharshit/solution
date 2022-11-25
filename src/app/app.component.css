@@ -3,6 +3,9 @@ p {
   color: #ff0000;
 }
 div {
-  background-color: rgb(133, 60, 100);
+  background-color: rgb(69, 54, 122);
   color: rgb(227, 250, 224);
+}
+h3 {
+  color: aquamarine;
 }
